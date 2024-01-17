@@ -30,8 +30,8 @@ public class MinHeapDemo {
         //System.out.println(minHeap);
         /*
          while(!pQueue.isEmpty()){
-            Todo todo=pQueue.poll();
-            System.out.println(todo);
+            //Todo todo=pQueue.poll();
+            //System.out.println(todo);
         }
          */
         while(!minHeap.isEmpty()){
