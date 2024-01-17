@@ -1,0 +1,34 @@
+Sure, here are 20 looping exercises for you to practice in Java:
+
+1. Write a program to print the numbers from 1 to 10 using a while loop.
+2. Write a program to calculate the sum of all numbers from 1 to 100 using a for loop.
+3. Write a program to print the even numbers from 1 to 20 using a do-while loop.
+4. Write a program to find the factorial of a given number using a while loop.
+5. Write a program to check if a number is prime or not using a for loop.
+6. Write a program to print the Fibonacci series up to a given number using a for loop.
+7. Write a program to find the sum of all odd numbers between 1 and 50 using a do-while loop.
+8. Write a program to reverse a given number using a while loop.
+9. Write a program to check if a number is palindrome or not using a for loop.
+10. Write a program to calculate the average of a list of numbers using a for loop.
+11. Write a program to print the multiplication table of a given number using a while loop.
+12. Write a program to find the largest element in an array using a for loop.
+
+13. Write a program to print the pattern:
+    1
+    12
+    123
+    1234
+    using a nested for loop.
+14. Write a program to find the GCD of two numbers using a while loop.
+15. Write a program to calculate the factorial of a given number using a for loop.
+16. Write a program to print the numbers from 10 to 1 in reverse order using a do-while loop.
+17. Write a program to check if a number is Armstrong or not using a for loop.
+18. Write a program to find the sum of all even numbers between 1 and 100 using a while loop.
+19. Write a program to print the ASCII values of all uppercase letters using a for loop.
+20. Write a program to calculate the power of a number using a for loop.
+
+Feel free to choose the exercise that interests you the most and give it a try! Let me know if you need any help or if you want me to check your code. Happy coding! 😊
+
+
+https://practice.geeksforgeeks.org/explore?page=3&difficulty=School&sortBy=submissions&utm_source=geeksforgeeks&utm_medium=code-output&utm_campaign=practice-IDE
+

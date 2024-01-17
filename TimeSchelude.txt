@@ -1,0 +1,21 @@
+29/12/23
+Loops,Arrays,String,string builders and string buffers
+
+30/12/2023
+10am-2pm oops
+3pm-4pm practice
+
+5pm-7pm stack and queue
+9pm-11pm recursion
+
+31/12/23
+10am-2pm bubble sort,merge sort, quick sort
+
+3pm-6pm linear search , binary search
+
+8pm-11pm collection frameworks(List,Queue,Set)
+
+2 jan 2024
+
+continue collection frameworks
+implementations

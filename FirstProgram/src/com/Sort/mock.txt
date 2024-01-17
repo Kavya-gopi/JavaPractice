@@ -1,0 +1,224 @@
+public class QueueArray{
+
+  private static int[] values;
+  private static int front,rear;
+  private static int capacity;
+
+  public QueueArray(int size){
+    capacity=size;
+    front=rear=-1;
+    values=new int[size];
+
+    
+ 
+  }
+  public boolean isEmpty(){
+    if(front==rear){
+      return true;
+
+   }
+   else{
+     return false;
+   }
+
+
+  }
+  public boolean isFull(){
+    if(rear==capacity){
+       return true;
+    }
+    else{
+      return false;
+    }
+  }
+  public void enqueue(int value){
+    if(isEmpty){
+      front++;
+      rear++;
+      values[rear]=value;
+
+    }
+    else
+    if(!isFull){
+       rear++;
+       values[rear]=value;
+    }
+  }
+  public void dequeue(){
+    if(isEmpty){
+      System.out.println("Queue is empty");
+     }
+    else{
+      for(int i=0;i<rear;i++){
+         values[i]=values[i+1];
+         values[rear]=0;
+         rear--;
+      }
+    }
+
+  }
+  public void display(){
+    for(int i=0;i<rear;i++){
+       System.out.println(values[i]);
+    }
+  }
+
+}
+
+//Stack
+
+public class StackArray{
+  private int[] array;
+
+  private int top;
+
+  public StackArray(int capacity){
+    array=new int[capacity];
+    top=-1;
+  }
+  public void push(int element){
+    if(top==arr.length-1){
+      System.out.println("Stack is full cannot push an element");
+      top=-1;
+    }
+    else{
+      top++;
+      array[top]=element;
+      System.out.println(element);
+    }
+
+  }
+  public int pop(){
+   if(top==-1){
+     return -1;
+   }
+   else{
+     int poppedElement=array[top];
+     top--;
+     return poppedElement;
+   }
+
+  }
+  public void peek(){
+    if(top==-1){
+      System.out.println("Stack is empty");
+    }
+    else{
+      System.out.println(array[top]);
+    }
+
+  }
+
+
+}
+
+//customStack
+
+import java.util.ArrayList;
+
+public class CustomStack<T>{
+  private ArrayList<T> stack;
+
+  public CustomStack(){
+    stack=new ArrayList<T>();
+    
+  }
+
+  public void push(T data){
+    stack.add(data); 
+  }
+
+  public T pop(){
+    if(stack.isEmpty()){
+      return null;
+    }
+     return stack.remove(stack.size()-1);
+  }
+  public T peek(){
+    if(stack.isEmpty()){
+      return null;
+    }
+    return stack.get(stack.size()-1);
+  }
+
+}
+
+
+Iterator<Map.Entry<String,String>> itr=a.entrySet().iterator();
+
+while(itr.hasNext()){
+   Map.Entry<String,String> entry=itr.next();
+}
+
+
+
+class Node{
+ int data;
+ Node next;
+
+ Node(int data,Node next){
+   this.data=data;
+   this.next=next;
+ }
+}
+
+public class CustomLinkedList{
+
+  static Node head;
+
+  public static void addNodeFirst(Node node){
+    node.next=head;
+    head=node;
+
+  }
+  public static void addNodeLast(Node node){
+     Node currentNode=head;
+     while(currentNode.next!=null){
+        currentNode=currentNode.next;
+        currentNode.next=node;
+        
+    }
+
+  }
+  public static void addNodeAfter(Node newNode,Node AfterNode){
+       newNode.next=afterNode;
+       afterNode.next=newNode;
+  }
+
+
+}
+
+
+class Node{
+  int data;
+  Node next;
+
+ Node(int data,Node next){
+   this.data=data;
+   this.next=next;
+ }
+}
+
+public class CustomLinkedList{
+   static Node head;
+
+   public static void displayList(Node head){
+      while(head!=null){
+          System.out.println(head.data);
+          head=head.next;
+      }
+   }
+   public static void addNodeFirst(Node node){
+      node.next=null;
+      head=node;
+
+  }
+  public static void addNodeLast(Node node){
+     Node currentNode=head;
+     while(currentNode.next!=null){
+        currentNode=currentNode.next;
+        currentNode.next=node;
+     }
+  }
+
+}

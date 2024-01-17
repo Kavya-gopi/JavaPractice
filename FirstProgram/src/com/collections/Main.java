@@ -1,0 +1,30 @@
+package com.collections;
+
+import com.comparingObjs.Person;
+
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        List<String> names=new ArrayList<String>();
+        names.add("Adam");
+        names.add(0,"Smith");
+        names.add("John");
+        names.add("Joe");
+        System.out.println(names);
+        System.out.println(names.contains("John"));
+        System.out.println(names.contains("Clara"));
+
+
+        List<Person> persons=new ArrayList<Person>();
+        persons.add(new Person("james","smith"));
+        persons.add(new Person("jack","c"));
+        System.out.println(persons);
+        System.out.println(persons.contains(new Person("james","smith")));
+        System.out.println(persons.contains(new Person("clara","c")));
+
+      //equals method in person returns true
+        //if not return false
+    }
+}
