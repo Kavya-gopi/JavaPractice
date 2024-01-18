@@ -1,4 +1,5 @@
 package com.practice.Practicepage;
+import java.util.Scanner;
 
 public class SuperDigit {
     static int findSuperDigit(int n) {
@@ -16,7 +17,10 @@ public class SuperDigit {
 
     }
     public static void main(String[] args) {
-        System.out.println(findSuperDigit(9875));
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+
+        System.out.println(findSuperDigit(n));
 
     }
 }
